@@ -1,4 +1,5 @@
-from flask import Flask, request, render_template
+from flask import Flask, render_template
+import streamlit as st
 from flask_cors import CORS
 import pickle
 import pandas as pd
